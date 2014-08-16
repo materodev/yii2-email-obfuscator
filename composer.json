@@ -1,0 +1,19 @@
+{
+	"name": "Pfarrer/yii2-email-obfuscator",
+	"description": "Yii2 extension to obfuscate eMail addresses.",
+	"keywords": ["yii2", "extension", "email", "obfuscation", "obfuscator"],
+	"homepage": "https://github.com/Pfarrer/yii2-email-obfuscator",
+	"type": "yii2-extension",
+	"license": "BSD-3-Clause",
+	"authors": [
+		{
+			"name": "Brian Pfretzschner",
+			"email": "brian.pfretzschner@gmail.com"
+		}
+	],
+	"minimum-stability": "dev",
+	"require": {
+		"php": ">=5.4.0",
+		"yiisoft/yii2": "*"
+	}
+}
