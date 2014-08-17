@@ -1,5 +1,5 @@
 {
-	"name": "Pfarrer/yii2-email-obfuscator",
+	"name": "pfarrer/yii2-email-obfuscator",
 	"description": "Yii2 extension to obfuscate eMail addresses.",
 	"keywords": ["yii2", "extension", "email", "obfuscation", "obfuscator"],
 	"homepage": "https://github.com/Pfarrer/yii2-email-obfuscator",
