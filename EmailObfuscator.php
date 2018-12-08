@@ -43,7 +43,7 @@ class EmailObfuscator extends Widget
         return '
 <script type="text/javascript">
     var action = ":otliam".split("").reverse().join("");
-    var href = "' . $rotMail . '".replace(/[a-zA-Z]/g, function(c){return String.fromCharCode((c<="Z"?90:122)>=(c=c.charCodeAt(0)+13)?c:c-26);});
+    var href = "' . $rotMail . '".replace(/[a-zA-Z]/g, function(c){return String.fromCharCode((c <= "Z" ? 90 : 122) >= (c = c.charCodeAt(0) + 13) ? c : c-26);});
     href = href.substr(0, ' . $atIndex . ') + String.fromCharCode(4*2*2*4) + href.substr(' . $atIndex . ');
     var a = "<a ' . ($this->useMicrodata ? 'itemprop=\"email\"' : '') . ' href=\"" + action + href + "\">" + href + "</a>";
     document.write(a);
