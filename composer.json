@@ -1,24 +1,28 @@
 {
-	"name": "pfarrer/yii2-email-obfuscator",
-	"description": "Yii2 extension to obfuscate eMail addresses.",
+	"name": "materodev/yii2-email-obfuscator",
+	"description": "Yii2 extension to obfuscate e-mail addresses.",
 	"keywords": ["yii2", "extension", "email", "obfuscation", "obfuscator"],
-	"homepage": "https://github.com/Pfarrer/yii2-email-obfuscator",
+	"homepage": "https://github.com/materodev/yii2-email-obfuscator",
 	"type": "yii2-extension",
 	"license": "BSD-3-Clause",
 	"authors": [
 		{
 			"name": "Brian Pfretzschner",
 			"email": "brian.pfretzschner@gmail.com"
+		},
+		{
+			"name": "Matero GmbH",
+			"email": "kontakt@matero.de"
 		}
 	],
-	"minimum-stability": "dev",
+	"minimum-stability": "stable",
 	"require": {
-		"php": ">=5.4.0",
+		"php": ">=5.6.0 || >= 7.1.0",
 		"yiisoft/yii2": "*"
 	},
 	"autoload": {
 		"psr-4": {
-			"pfarrer\\yii2\\email\\": ""
+			"materodev\\yii2emailobfuscator\\": ""
 		}
 	}
 }
